@@ -1,20 +1,3 @@
-# Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
-
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="common"
-ENABLE_CORRECTION="false"
-
-plugins=(
-  git
-  kubectl
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-)
-
-source $ZSH/oh-my-zsh.sh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
@@ -23,7 +6,7 @@ else
 fi
 
 # pyenv
-eval "$(pyenv init -)"
+# eval "$(pyenv init -)"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
