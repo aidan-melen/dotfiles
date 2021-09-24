@@ -16,7 +16,8 @@ HYPHEN_INSENSITIVE="true"
 DISABLE_LS_COLORS="true"
 
 plugins=(
-
+zsh-autosuggestions
+zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
