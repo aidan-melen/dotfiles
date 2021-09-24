@@ -43,9 +43,8 @@ alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 alias .6='cd ../../../../../../'
-alias ~="cd ~"   
-alias mkdir='mkdir -p'
-alias c='clear'  
+alias ~="cd ~"
+alias c='clear'
 alias his='history'
 
 # SEARCHING
