@@ -76,10 +76,10 @@ alias got='git'
 alias get='git'
 
 # PYTHON
+alias pyhton='py'
 alias pyhton='python'
 
 # DOCKER
-alias d='docker'
 alias d='docker'
 alias dokcer='docker'
 alias di='docker images'
@@ -116,3 +116,8 @@ alias tgaa='terragrunt apply -auto-approve'
 alias tgd='terragrunt destroy'
 alias tgda='terragrunt destroy -auto-approve'
 alias tgc='terragrunt console'
+
+# KUBERNETES
+alias k='kubectl'
+alias kaf='kubctl apply -f'
+alias kdelf='kubctl delete -f'
