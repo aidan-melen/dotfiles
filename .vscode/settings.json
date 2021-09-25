@@ -1,3 +1,5 @@
+// This is an example. Synchronize vscode settings with:
+// https://code.visualstudio.com/docs/editor/settings-sync
 {
     "files.autoSave": "onFocusChange",
     "editor.multiCursorModifier": "ctrlCmd",
