@@ -14,7 +14,7 @@
   "explorer.openEditors.visible": 0,
   "editor.lineNumbers": "on",
   "workbench.colorCustomizations": {
-    "source": "https://github.com/nathanbuchar/atom-one-dark-terminal/blob/master/COLORS",
+    // https://github.com/nathanbuchar/atom-one-dark-terminal/blob/master/COLORS
     "terminal.background":"#1E2127",
     "terminal.ansiBlack": "#1E2127",
     "terminal.ansiBrightBlack": "#5C6370",
