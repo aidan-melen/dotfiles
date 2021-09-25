@@ -107,7 +107,7 @@ alias tfo='terraform output'
 
 # TERRAGRUNT
 alias tg='terragrunt'
-alias tgv'terraform validate'
+alias tgv='terraform validate'
 alias tgi='terragrunt init'
 alias tgp='terragrunt plan'
 alias tga='terragrunt apply'
