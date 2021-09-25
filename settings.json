@@ -1,5 +1,4 @@
 {
-  {
   "files.autoSave": "onFocusChange",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.tabSize": 2,
