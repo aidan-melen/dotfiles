@@ -6,6 +6,6 @@ if [ "$CODESPACES" = "true" ]; then
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
   rm $HOME/.zshrc
-  cp /workspaces/.codespaces/.persistedshare/dotfiles/.zshrc > $HOME/.zshrc
+  cp /workspaces/.codespaces/.persistedshare/dotfiles/.zshrc $HOME/.zshrc
   sudo chsh -s /usr/bin/zsh
 fi
