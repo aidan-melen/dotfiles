@@ -1,4 +1,19 @@
 {
+  {
+  "files.autoSave": "onFocusChange",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.rulers": [80, 120],
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": true,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.localityBonus": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "explorer.openEditors.visible": 0,
+  "editor.lineNumbers": "on",
   "workbench.colorCustomizations": {
     "source": "https://github.com/nathanbuchar/atom-one-dark-terminal/blob/master/COLORS",
     "terminal.background":"#1E2127",
@@ -22,5 +37,20 @@
     "terminal.ansiBold Text": "#ABB2BF",
     "terminal.ansiSelection": "#3A3F4B",
     "terminal.ansiCursor": "#5C6370",
-  }
+  },
+  "breadcrumbs.enabled": true,
+  "files.exclude": {
+    "USE_GITIGNORE": true
+  },
+  "search.exclude": {
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true
+  },
+  "window.zoomLevel": 0,
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.scrollback": 10000,
 }
