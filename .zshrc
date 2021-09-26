@@ -22,6 +22,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Pyenv
+eval "$(pyenv init -)"
+
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias hostfile="sudo vim /etc/hosts"
