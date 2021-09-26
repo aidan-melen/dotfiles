@@ -16,14 +16,12 @@ export LS_COLORS
 plugins=(
 zsh-autosuggestions
 zsh-syntax-highlighting
+pyenv
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-# Pyenv
-eval "$(pyenv init -)"
 
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
