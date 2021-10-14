@@ -98,6 +98,7 @@ alias docker-clear='docker system prune --all'
 alias m='make'
 alias mb='make build' # popular target for building docker images
 alias mr='make run' # popular target for running docker containers
+alias md='make dev' # popular target for run a docker container and get a shell
 
 # TERRAFORM
 alias tf='terraform'
