@@ -49,7 +49,6 @@ alias .5='cd ../../../../../'
 alias .6='cd ../../../../../../'
 alias ~="cd ~"
 alias c='clear'
-alias m='make'
 alias his='history'
 
 # SEARCHING
@@ -94,6 +93,11 @@ alias dpl='docker pull'
 alias drm='docker rm'
 alias drmi='docker rmi'
 alias docker-clear='docker system prune --all'
+
+# MAKE
+alias m='make'
+alias mb='make build' # popular target for building docker images
+alias mr='make run' # popular target for running docker containers
 
 # TERRAFORM
 alias tf='terraform'
