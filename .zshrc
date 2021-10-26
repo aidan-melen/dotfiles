@@ -14,7 +14,6 @@ LS_COLORS='no=00:rs=0:fi=00:di=38;5;218;01:ln=38;5;115:mh=04;38;5;115:pi=48;5;13
 export LS_COLORS
 
 # Configure Git
-# 
 git config --global user.name "Aidan Melen"
 git config --global user.email "aidan-melen@pluralsight.com"
 
