@@ -124,5 +124,9 @@ alias tgc='terragrunt console'
 
 # KUBERNETES
 alias k='kubectl'
-alias kaf='kubctl apply -f'
-alias kdelf='kubctl delete -f'
+alias kaf='kubectl apply -f'
+alias kdelf='kubectl delete -f'
+
+# GIT
+git config --global user.name "Aidan Melen"
+git config --global user.email "aidan-melen@pluralsight.com"
