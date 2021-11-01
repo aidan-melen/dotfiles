@@ -72,6 +72,7 @@ alias gco='git checkout'
 alias gcom='git checkout master'
 alias got='git'
 alias get='git'
+alias ge='git commit --allow-empty -m "This is an empty commit. Likely to trigger a CI/CD pipeline that is stalled."'
 
 # PYTHON
 alias pyhton='py'
