@@ -136,6 +136,7 @@ git config --global user.email "aidan-melen@pluralsight.com"
 
 # Workspaces
 alias ws='cd /workspaces'
+alias scratch='cd /workspaces/scratch'
 alias ps-data='cd /workspaces/ps-data'
 alias ps-dev='cd /workspaces/ps-dev'
 alias ps-ops='cd /workspaces/ps-ops'
