@@ -133,3 +133,9 @@ alias kdelf='kubectl delete -f'
 # GIT
 git config --global user.name "Aidan Melen"
 git config --global user.email "aidan-melen@pluralsight.com"
+
+# Workspaces
+alias ws='cd /workspaces'
+alias ps-data='cd /workspaces/ps-data'
+alias ps-dev='cd /workspaces/ps-dev'
+alias ps-ops='cd /workspaces/ps-ops'
