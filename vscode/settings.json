@@ -53,5 +53,7 @@
   "git.autofetch": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.profiles.osx": "/bin/zsh",
+  "terminal.integrated.profiles.linux": "/bin/zsh",
+  "terminal.integrated.cwd": "/workspaces",
   "terminal.integrated.scrollback": 10000,
 }
