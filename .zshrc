@@ -130,10 +130,6 @@ alias k='kubectl'
 alias kaf='kubectl apply -f'
 alias kdelf='kubectl delete -f'
 
-# GIT
-git config --global user.name "Aidan Melen"
-git config --global user.email "aidan-melen@pluralsight.com"
-
 # Workspaces
 alias ws='cd /workspaces'
 alias scratch='cd /workspaces/scratch'
