@@ -16,8 +16,6 @@ pyenv
 
 source $ZSH/oh-my-zsh.sh
 
-compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION
-
 # User configuration
 
 alias zshconfig="vim ~/.zshrc"
