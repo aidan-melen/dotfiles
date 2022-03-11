@@ -137,3 +137,6 @@ alias scratch='cd /workspaces/scratch'
 alias ps-data='cd /workspaces/ps-data'
 alias ps-dev='cd /workspaces/ps-dev'
 alias ps-ops='cd /workspaces/ps-ops'
+
+# AWS
+alias keyman='aws_okta_keyman'
