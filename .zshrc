@@ -138,5 +138,10 @@ alias ps-data='cd /workspaces/ps-data'
 alias ps-dev='cd /workspaces/ps-dev'
 alias ps-ops='cd /workspaces/ps-ops'
 
+# GIT/GH
+git config --global user.email "aidan-melen@pluralsight.com"
+git config --global user.name "Aidan Melen"
+gh auth setup-git
+
 # AWS
 alias keyman='aws_okta_keyman'
